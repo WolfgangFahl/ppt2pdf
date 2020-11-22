@@ -1,0 +1,4 @@
+#!/bin/bash
+# WF 2020-11-15
+# use current path as base path
+osascript $HOME/source/applescript/ppt2pdf.scpt $(pwd) $@
